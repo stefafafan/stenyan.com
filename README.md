@@ -1,8 +1,12 @@
-```txt
-npm install
-npm run dev
+# blog
+
+WIP
+
+```sh
+bun i
+bun run dev
 ```
 
-```txt
-npm run deploy
+```sh
+bun run deploy
 ```
