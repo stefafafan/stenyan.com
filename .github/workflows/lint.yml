@@ -2,6 +2,7 @@ name: Lint
 
 on:
   push:
+    branch: main
 
 jobs:
   biome:
