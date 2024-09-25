@@ -2,10 +2,9 @@ name: Biome
 
 on:
   push:
-  pull_request:
 
 jobs:
-  quality:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
