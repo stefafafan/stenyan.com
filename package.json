@@ -8,6 +8,7 @@
     "deploy": "bun run build && wrangler pages deploy"
   },
   "dependencies": {
+    "@hono/vite-ssg": "^0.1.0",
     "hono": "^4.6.3"
   },
   "devDependencies": {
