@@ -7,11 +7,20 @@ export const renderer = jsxRenderer(({ children }) => {
 				<meta charSet="UTF-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>stenyan.com</title>
-				<meta name="description" content="すてにゃん (stefafafan) の個人サイトです。" />
-				<meta name="keywords" content="すてにゃん, stefafafan, stenyan, blog, engineer" />
+				<meta
+					name="description"
+					content="すてにゃん (stefafafan) の個人サイトです。"
+				/>
+				<meta
+					name="keywords"
+					content="すてにゃん, stefafafan, stenyan, blog, engineer"
+				/>
 				<meta name="author" content="すてにゃん" />
 				<meta property="og:title" content="stenyan.com" />
-				<meta property="og:description" content="すてにゃん (stefafafan) の個人サイトです。" />
+				<meta
+					property="og:description"
+					content="すてにゃん (stefafafan) の個人サイトです。"
+				/>
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://stenyan.com" />
 				{/* <meta property="og:image" content="https://stenyan.com/static/ogp.png" /> */}
@@ -19,7 +28,10 @@ export const renderer = jsxRenderer(({ children }) => {
 				<meta name="twitter:site" content="@stefafafan" />
 				<meta name="twitter:creator" content="@stefafafan" />
 				<meta name="twitter:title" content="stenyan.com" />
-				<meta name="twitter:description" content="すてにゃん (stefafafan) の個人サイトです。" />
+				<meta
+					name="twitter:description"
+					content="すてにゃん (stefafafan) の個人サイトです。"
+				/>
 				{/* <meta name="twitter:image" content="https://stenyan.com/static/ogp.png" /> */}
 				{/* <link rel="icon" href="/static/favicon.ico" /> */}
 				{/* <link rel="apple-touch-icon" href="/static/apple-touch-icon.png" /> */}
