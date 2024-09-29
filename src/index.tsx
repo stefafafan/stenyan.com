@@ -9,7 +9,14 @@ app.get("/", (c) => {
 	return c.render(
 		<>
 			<header>
-				<h1>stenyan.com</h1>
+				<div style={{ display: "flex", alignItems: "center" }}>
+					<img
+						src="static/images/stefafafan.png"
+						alt="stefafafan"
+						style={{ height: "3em", verticalAlign: "middle" }}
+					/>
+					<h1 style={{ marginLeft: "10px" }}>stefafafan a.k.a. すてにゃん</h1>
+				</div>
 				<p>すてにゃん (stefafafan) の個人サイトです。</p>
 			</header>
 			<section>
