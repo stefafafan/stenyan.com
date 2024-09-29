@@ -34,6 +34,7 @@ export const renderer = jsxRenderer(({ children }) => {
 					content="stefafafan a.k.a. すてにゃん is a Software Engineer based in Japan."
 				/>
 				{/* <meta name="twitter:image" content="https://stenyan.com/static/ogp.png" /> */}
+				<link rel="author" href="https://www.hatena.ne.jp/stefafafan/" />
 				<link rel="icon" href="static/favicon.ico" />
 				<link
 					rel="icon"
