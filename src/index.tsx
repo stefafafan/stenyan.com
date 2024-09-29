@@ -13,4 +13,8 @@ app.get("/", (c) => {
 	return c.render(TopPage());
 });
 
+app.get("/robots.txt", (c) => {
+	return c.text("User-agent: *\nDisallow:");
+});
+
 export default app;
