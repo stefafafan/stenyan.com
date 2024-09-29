@@ -1,4 +1,4 @@
-import { Style } from "hono/css";
+import { css, Style } from "hono/css";
 import { jsxRenderer } from "hono/jsx-renderer";
 
 export const renderer = jsxRenderer(({ children }) => {
@@ -61,7 +61,69 @@ export const renderer = jsxRenderer(({ children }) => {
 				/>
 				<link rel="manifest" href="/static/site.webmanifest" />
 				<link rel="canonical" href="https://stenyan.com" />
-				<Style />
+				<Style>{css`
+					body {
+						font-family: 'Helvetica Neue', sans-serif;
+						background-color: #f8f9fa;
+						color: #333;
+						margin: 0;
+						padding: 0;
+					}
+
+					.container {
+						width: 80%;
+						margin: 0 auto;
+						padding: 20px;
+						background-color: #fff;
+						border-radius: 8px;
+						box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+					}
+
+					header {
+						text-align: center;
+						padding: 20px 0;
+					}
+
+					header img {
+						max-width: 200px;
+						border-radius: 50%;
+					}
+
+					header h1 {
+						font-size: 3rem;
+						margin: 0.5rem 0;
+						color: #333;
+					}
+					
+					a {
+						color: #27ae60;
+						text-decoration: none;
+					}
+
+					a:hover {
+						text-decoration: underline;
+					}
+
+					footer {
+						text-align: center;
+						padding: 20px;
+						margin-top: 20px;
+					}
+
+					footer p {
+						margin: 0;
+					}
+
+					@media (max-width: 768px) {
+						.container {
+							width: 95%;
+						}
+
+						header h1 {
+							font-size: 2rem;
+						}
+					}
+				`}</Style>
 			</head>
 			<body>{children}</body>
 		</html>
