@@ -64,6 +64,7 @@ export const renderer = jsxRenderer(({ children }) => {
 				<Style>{css`
 					body {
 						font-family: 'Helvetica Neue', sans-serif;
+						font-size: 18px;
 						background-color: #f8f9fa;
 						color: #333;
 						margin: 0;
@@ -95,13 +96,19 @@ export const renderer = jsxRenderer(({ children }) => {
 						color: #333;
 					}
 					
+					/* ref. https://www.w3.org/WAI/WCAG21/working-examples/link-contrast/ */
 					a {
-						color: #27ae60;
-						text-decoration: none;
+						color: #3366CC;
 					}
 
-					a:hover {
-						text-decoration: underline;
+					a:visited {
+						color: #6633FF;
+					}
+
+					a:hover, a:focus, a:active {
+						color: #CC0066;
+						border: 1px solid #3366CC;
+						margin: -1px;
 					}
 
 					footer {
@@ -122,6 +129,10 @@ export const renderer = jsxRenderer(({ children }) => {
 						header h1 {
 							font-size: 2rem;
 						}
+					}
+
+					ul, li {
+						margin: 10px;
 					}
 				`}</Style>
 			</head>
