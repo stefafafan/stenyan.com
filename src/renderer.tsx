@@ -10,7 +10,7 @@ export const renderer = jsxRenderer(({ children }) => {
 				<title>stenyan.com</title>
 				<meta
 					name="description"
-					content="すてにゃん (stefafafan) の個人サイトです。"
+					content="stefafafan a.k.a. すてにゃん is a Software Engineer based in Japan."
 				/>
 				<meta
 					name="keywords"
@@ -20,7 +20,7 @@ export const renderer = jsxRenderer(({ children }) => {
 				<meta property="og:title" content="stenyan.com" />
 				<meta
 					property="og:description"
-					content="すてにゃん (stefafafan) の個人サイトです。"
+					content="stefafafan a.k.a. すてにゃん is a Software Engineer based in Japan."
 				/>
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://stenyan.com" />
@@ -31,7 +31,7 @@ export const renderer = jsxRenderer(({ children }) => {
 				<meta name="twitter:title" content="stenyan.com" />
 				<meta
 					name="twitter:description"
-					content="すてにゃん (stefafafan) の個人サイトです。"
+					content="stefafafan a.k.a. すてにゃん is a Software Engineer based in Japan."
 				/>
 				{/* <meta name="twitter:image" content="https://stenyan.com/static/ogp.png" /> */}
 				<link rel="icon" href="static/favicon.ico" />

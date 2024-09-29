@@ -19,10 +19,10 @@ export const TopPage = () => {
 					/>
 					<h1 class={h1Style}>stefafafan a.k.a. すてにゃん</h1>
 				</div>
-				<p>A web developer based in Japan.</p>
+				<p>A software engineer based in Japan.</p>
 			</header>
 			<section>
-				<h2>各種SNS</h2>
+				<h2>Socials</h2>
 				<ul>
 					<li>
 						<a href="https://x.com/stefafafan" target="_blank" rel="noreferrer">
@@ -63,7 +63,7 @@ export const TopPage = () => {
 					</li>
 				</ul>
 			</section>
-			<footer>&copy; 2024 すてにゃん</footer>
+			<footer>&copy; 2024 stefafafan</footer>
 		</>
 	);
 };
