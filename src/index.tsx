@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import { css } from "hono/css";
 import { renderer } from "./renderer";
 
 const app = new Hono();
@@ -6,16 +7,23 @@ const app = new Hono();
 app.use(renderer);
 
 app.get("/", (c) => {
+	const headerStyle = css`
+		display: flex;
+		align-items: center;
+	`;
+	const h1Style = css`
+		margin-left: 10px;
+	`;
 	return c.render(
 		<>
 			<header>
-				<div style={{ display: "flex", alignItems: "center" }}>
+				<div class={headerStyle}>
 					<img
 						src="static/images/stefafafan.png"
 						alt="stefafafan"
 						style={{ height: "3em", verticalAlign: "middle" }}
 					/>
-					<h1 style={{ marginLeft: "10px" }}>stefafafan a.k.a. すてにゃん</h1>
+					<h1 class={h1Style}>stefafafan a.k.a. すてにゃん</h1>
 				</div>
 				<p>すてにゃん (stefafafan) の個人サイトです。</p>
 			</header>

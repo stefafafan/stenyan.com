@@ -1,3 +1,4 @@
+import { Style } from "hono/css";
 import { jsxRenderer } from "hono/jsx-renderer";
 
 export const renderer = jsxRenderer(({ children }) => {
@@ -37,7 +38,7 @@ export const renderer = jsxRenderer(({ children }) => {
 				{/* <link rel="apple-touch-icon" href="/static/apple-touch-icon.png" /> */}
 				{/* <link rel="manifest" href="/static/manifest.json" /> */}
 				<link rel="canonical" href="https://stenyan.com" />
-				<link href="/static/style.css" rel="stylesheet" />
+				<Style />
 			</head>
 			<body>{children}</body>
 		</html>
