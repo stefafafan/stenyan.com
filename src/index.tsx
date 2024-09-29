@@ -17,7 +17,7 @@ app.get("/robots.txt", (c) => {
 	return c.text("User-agent: *\nDisallow:");
 });
 
-app.notFound((c) => {
+app.all("*", (c) => {
 	return c.text("Not found", 404);
 });
 
