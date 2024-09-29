@@ -132,7 +132,7 @@ export const renderer = jsxRenderer(({ children }) => {
 					}
 
 					ul, li {
-						margin: 10px;
+						margin: 10px 0px 10px;
 					}
 				`}</Style>
 			</head>
