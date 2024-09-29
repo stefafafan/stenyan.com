@@ -24,7 +24,10 @@ export const renderer = jsxRenderer(({ children }) => {
 				/>
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://stenyan.com" />
-				{/* <meta property="og:image" content="https://stenyan.com/static/ogp.png" /> */}
+				<meta
+					property="og:image"
+					content="https://stenyan.com/static/ogimage.png"
+				/>
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@stefafafan" />
 				<meta name="twitter:creator" content="@stefafafan" />
@@ -33,7 +36,10 @@ export const renderer = jsxRenderer(({ children }) => {
 					name="twitter:description"
 					content="stefafafan a.k.a. すてにゃん is a Software Engineer based in Japan."
 				/>
-				{/* <meta name="twitter:image" content="https://stenyan.com/static/ogp.png" /> */}
+				<meta
+					name="twitter:image"
+					content="https://stenyan.com/static/ogimage.png"
+				/>
 				<link rel="author" href="https://www.hatena.ne.jp/stefafafan/" />
 				<link rel="icon" href="static/favicon.ico" />
 				<link
