@@ -128,6 +128,10 @@ export const renderer = jsxRenderer(({ children }) => {
 							font-size: 2rem;
 						}
 					}
+
+					ul, li {
+						margin: 10px;
+					}
 				`}</Style>
 			</head>
 			<body>{children}</body>
