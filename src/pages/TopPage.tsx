@@ -1,6 +1,6 @@
 import { css } from "hono/css";
 
-export const Index = () => {
+export const TopPage = () => {
 	const headerStyle = css`
 		display: flex;
 		align-items: center;

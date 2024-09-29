@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { Index } from "./pages/index";
+import { TopPage } from "./pages/TopPage";
 import { renderer } from "./renderer";
 
 const app = new Hono();
@@ -7,7 +7,7 @@ const app = new Hono();
 app.use(renderer);
 
 app.get("/", (c) => {
-	return c.render(Index());
+	return c.render(TopPage());
 });
 
 export default app;
