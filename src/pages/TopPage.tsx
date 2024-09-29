@@ -13,13 +13,13 @@ export const TopPage = () => {
 			<header>
 				<div class={headerStyle}>
 					<img
-						src="static/images/stefafafan.png"
+						src="static/stefafafan.png"
 						alt="stefafafan"
 						style={{ height: "3em", verticalAlign: "middle" }}
 					/>
 					<h1 class={h1Style}>stefafafan a.k.a. すてにゃん</h1>
 				</div>
-				<p>すてにゃん (stefafafan) の個人サイトです。</p>
+				<p>A web developer based in Japan.</p>
 			</header>
 			<section>
 				<h2>各種SNS</h2>

@@ -34,9 +34,9 @@ export const renderer = jsxRenderer(({ children }) => {
 					content="すてにゃん (stefafafan) の個人サイトです。"
 				/>
 				{/* <meta name="twitter:image" content="https://stenyan.com/static/ogp.png" /> */}
-				{/* <link rel="icon" href="/static/favicon.ico" /> */}
-				{/* <link rel="apple-touch-icon" href="/static/apple-touch-icon.png" /> */}
-				{/* <link rel="manifest" href="/static/manifest.json" /> */}
+				<link rel="icon" href="static/favicon.ico" />
+				<link rel="apple-touch-icon" href="/static/apple-touch-icon.png" />
+				<link rel="manifest" href="/static/site.webmanifest" />
 				<link rel="canonical" href="https://stenyan.com" />
 				<Style />
 			</head>
