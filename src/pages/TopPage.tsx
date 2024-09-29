@@ -22,6 +22,35 @@ export const TopPage = () => {
 				<p>A software engineer based in Japan.</p>
 			</header>
 			<section>
+				<h2>Work experience</h2>
+				<ul>
+					<li>
+						<p>
+							2024 - Software Engineer at{" "}
+							<a
+								href="https://www.kakehashi.life/"
+								target={"_blank"}
+								rel="noreferrer"
+							>
+								KAKEHASHI Inc.
+							</a>
+						</p>
+					</li>
+					<li>
+						<p>
+							2015 - 2024 Software Engineer at{" "}
+							<a
+								href="https://hatena.co.jp/"
+								target={"_blank"}
+								rel="noreferrer"
+							>
+								Hatena Co., Ltd.
+							</a>
+						</p>
+					</li>
+				</ul>
+			</section>
+			<section>
 				<h2>Socials</h2>
 				<ul>
 					<li>
