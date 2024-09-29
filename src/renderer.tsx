@@ -1,3 +1,4 @@
+import { Style } from "hono/css";
 import { jsxRenderer } from "hono/jsx-renderer";
 
 export const renderer = jsxRenderer(({ children }) => {
@@ -9,7 +10,7 @@ export const renderer = jsxRenderer(({ children }) => {
 				<title>stenyan.com</title>
 				<meta
 					name="description"
-					content="すてにゃん (stefafafan) の個人サイトです。"
+					content="stefafafan a.k.a. すてにゃん is a Software Engineer based in Japan."
 				/>
 				<meta
 					name="keywords"
@@ -19,7 +20,7 @@ export const renderer = jsxRenderer(({ children }) => {
 				<meta property="og:title" content="stenyan.com" />
 				<meta
 					property="og:description"
-					content="すてにゃん (stefafafan) の個人サイトです。"
+					content="stefafafan a.k.a. すてにゃん is a Software Engineer based in Japan."
 				/>
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://stenyan.com" />
@@ -30,14 +31,31 @@ export const renderer = jsxRenderer(({ children }) => {
 				<meta name="twitter:title" content="stenyan.com" />
 				<meta
 					name="twitter:description"
-					content="すてにゃん (stefafafan) の個人サイトです。"
+					content="stefafafan a.k.a. すてにゃん is a Software Engineer based in Japan."
 				/>
 				{/* <meta name="twitter:image" content="https://stenyan.com/static/ogp.png" /> */}
-				{/* <link rel="icon" href="/static/favicon.ico" /> */}
-				{/* <link rel="apple-touch-icon" href="/static/apple-touch-icon.png" /> */}
-				{/* <link rel="manifest" href="/static/manifest.json" /> */}
+				<link rel="author" href="https://www.hatena.ne.jp/stefafafan/" />
+				<link rel="icon" href="static/favicon.ico" />
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="32x32"
+					href="/static/favicon-32x32.png"
+				/>
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="16x16"
+					href="/static/favicon-16x16.png"
+				/>
+				<link
+					rel="apple-touch-icon"
+					sizes="180x180"
+					href="/static/apple-touch-icon.png"
+				/>
+				<link rel="manifest" href="/static/site.webmanifest" />
 				<link rel="canonical" href="https://stenyan.com" />
-				<link href="/static/style.css" rel="stylesheet" />
+				<Style />
 			</head>
 			<body>{children}</body>
 		</html>
