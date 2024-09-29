@@ -8,7 +8,8 @@ export const TopPage = () => {
 					<img
 						src="static/stefafafan.webp"
 						alt="stefafafan"
-						style={{ height: "3em" }}
+						width={54}
+						height={54}
 					/>
 					<h1>stefafafan a.k.a. すてにゃん</h1>
 				</div>
