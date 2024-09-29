@@ -95,13 +95,17 @@ export const renderer = jsxRenderer(({ children }) => {
 						color: #333;
 					}
 					
+					/* ref. https://www.w3.org/WAI/WCAG21/working-examples/link-contrast/ */
 					a {
-						color: #27ae60;
-						text-decoration: none;
+						color: #3366CC;
 					}
 
 					a:hover {
-						text-decoration: underline;
+						color: #CC0066;
+					}
+
+					a:visited {
+						color: #6633FF;
 					}
 
 					footer {
