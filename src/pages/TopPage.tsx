@@ -35,13 +35,13 @@ export const TopPage = () => {
 				<section>
 					<h2>Blog posts</h2>
 					<p>
-						The following are a sample of technical blog posts I've written (in
-						Japanese). More posts can be found at{" "}
-						<a href="https://blog.stenyan.jp/">stefafafan の fa は3つです</a>.
+						以下は私が書いた技術系記事の一部です。他の記事は{" "}
+						<a href="https://blog.stenyan.jp/">stefafafan の fa は3つです</a>{" "}
+						をご覧ください。
 					</p>
 					<ul>
 						<li>
-							KAKEHASHI Tech Blog (Company's tech blog)
+							KAKEHASHI Tech Blog
 							<ul>
 								<li>
 									2024/09/04:{" "}
@@ -60,7 +60,7 @@ export const TopPage = () => {
 							</ul>
 						</li>
 						<li>
-							Hatena Developer Blog (Company's tech blog)
+							Hatena Developer Blog
 							<ul>
 								<li>
 									2022/08/04:{" "}
@@ -93,7 +93,7 @@ export const TopPage = () => {
 							</ul>
 						</li>
 						<li>
-							stefafafan の fa は3つです (Personal blog)
+							stefafafan の fa は3つです
 							<ul>
 								<li>
 									2023/12/29:{" "}
@@ -142,7 +142,7 @@ export const TopPage = () => {
 					</ul>
 				</section>
 				<section>
-					<h2>Socials</h2>
+					<h2>Social Accounts</h2>
 					<ul>
 						<li>
 							<a href="https://x.com/stefafafan">𝕏 (Formerly Twitter)</a>
