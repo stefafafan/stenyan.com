@@ -17,4 +17,8 @@ app.get("/robots.txt", (c) => {
 	return c.text("User-agent: *\nDisallow:");
 });
 
+app.notFound((c) => {
+	return c.text("Not found", 404);
+});
+
 export default app;
