@@ -35,7 +35,23 @@ export const renderer = jsxRenderer(({ children }) => {
 				/>
 				{/* <meta name="twitter:image" content="https://stenyan.com/static/ogp.png" /> */}
 				<link rel="icon" href="static/favicon.ico" />
-				<link rel="apple-touch-icon" href="/static/apple-touch-icon.png" />
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="32x32"
+					href="/static/favicon-32x32.png"
+				/>
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="16x16"
+					href="/static/favicon-16x16.png"
+				/>
+				<link
+					rel="apple-touch-icon"
+					sizes="180x180"
+					href="/static/apple-touch-icon.png"
+				/>
 				<link rel="manifest" href="/static/site.webmanifest" />
 				<link rel="canonical" href="https://stenyan.com" />
 				<Style />
