@@ -108,6 +108,7 @@ export const renderer = jsxRenderer(({ children }) => {
 					a:hover, a:focus, a:active {
 						color: #CC0066;
 						border: 1px solid #3366CC;
+						margin: -1px;
 					}
 
 					footer {
