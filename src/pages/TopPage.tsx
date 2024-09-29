@@ -21,25 +21,13 @@ export const TopPage = () => {
 						<li>
 							<p>
 								2024 - Software Engineer at{" "}
-								<a
-									href="https://www.kakehashi.life/"
-									target={"_blank"}
-									rel="noreferrer"
-								>
-									KAKEHASHI Inc.
-								</a>
+								<a href="https://www.kakehashi.life/">KAKEHASHI Inc.</a>
 							</p>
 						</li>
 						<li>
 							<p>
 								2015 - 2024 Software Engineer at{" "}
-								<a
-									href="https://hatena.co.jp/"
-									target={"_blank"}
-									rel="noreferrer"
-								>
-									Hatena Co., Ltd.
-								</a>
+								<a href="https://hatena.co.jp/">Hatena Co., Ltd.</a>
 							</p>
 						</li>
 					</ul>
@@ -49,14 +37,7 @@ export const TopPage = () => {
 					<p>
 						The following are a sample of technical blog posts I've written (in
 						Japanese). More posts can be found at{" "}
-						<a
-							href="https://blog.stenyan.jp/"
-							target={"_blank"}
-							rel="noreferrer"
-						>
-							stefafafan の fa は3つです
-						</a>
-						.
+						<a href="https://blog.stenyan.jp/">stefafafan の fa は3つです</a>.
 					</p>
 					<ul>
 						<li>
@@ -164,49 +145,19 @@ export const TopPage = () => {
 					<h2>Socials</h2>
 					<ul>
 						<li>
-							<a
-								href="https://x.com/stefafafan"
-								target="_blank"
-								rel="noreferrer"
-							>
-								𝕏 (Formerly Twitter)
-							</a>
+							<a href="https://x.com/stefafafan">𝕏 (Formerly Twitter)</a>
 						</li>
 						<li>
-							<a
-								href="https://github.com/stefafafan"
-								target="_blank"
-								rel="noreferrer"
-							>
-								GitHub
-							</a>
+							<a href="https://github.com/stefafafan">GitHub</a>
 						</li>
 						<li>
-							<a
-								href="https://speakerdeck.com/stefafafan"
-								target="_blank"
-								rel="noreferrer"
-							>
-								Speaker Deck
-							</a>
+							<a href="https://speakerdeck.com/stefafafan">Speaker Deck</a>
 						</li>
 						<li>
-							<a
-								href="https://blog.stenyan.jp/"
-								target="_blank"
-								rel="noreferrer"
-							>
-								Hatena Blog
-							</a>
+							<a href="https://blog.stenyan.jp/">Hatena Blog</a>
 						</li>
 						<li>
-							<a
-								href="https://b.hatena.ne.jp/stefafafan/"
-								target="_blank"
-								rel="noreferrer"
-							>
-								Hatena Bookmark
-							</a>
+							<a href="https://b.hatena.ne.jp/stefafafan/">Hatena Bookmark</a>
 						</li>
 					</ul>
 				</section>
