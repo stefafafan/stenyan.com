@@ -64,6 +64,7 @@ export const renderer = jsxRenderer(({ children }) => {
 				<Style>{css`
 					body {
 						font-family: 'Helvetica Neue', sans-serif;
+						font-size: 18px;
 						background-color: #f8f9fa;
 						color: #333;
 						margin: 0;
