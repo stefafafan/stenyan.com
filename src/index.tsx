@@ -17,8 +17,10 @@ app.get("/robots.txt", (c) => {
 	return c.text("User-agent: *\nDisallow:");
 });
 
-app.notFound((c) => {
-	return c.text("Not found", 404);
+// Cloudflare Pages では存在しないパスの場合 404.html の内容を表示する
+// https://developers.cloudflare.com/pages/configuration/serving-pages/
+app.get("/404.html", (c) => {
+	return c.html("Not found", 404);
 });
 
 export default app;
