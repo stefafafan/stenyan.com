@@ -6,9 +6,9 @@ export const TopPage = () => {
 			<header>
 				<div>
 					<img
-						src="static/stefafafan.png"
+						src="static/stefafafan.webp"
 						alt="stefafafan"
-						style={{ height: "3em", verticalAlign: "middle" }}
+						style={{ height: "3em" }}
 					/>
 					<h1>stefafafan a.k.a. すてにゃん</h1>
 				</div>
