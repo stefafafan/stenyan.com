@@ -100,7 +100,7 @@ export const renderer = jsxRenderer(({ children }) => {
 						color: #3366CC;
 					}
 
-					a:hover {
+					a:hover, a:focus, a:active {
 						color: #CC0066;
 					}
 
