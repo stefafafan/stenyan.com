@@ -1,7 +1,6 @@
-// functions/_middleware.ts
-import { handleMiddleware } from "hono/cloudflare-pages";
-
-export const onRequest = handleMiddleware(async (c, next) => {
-	console.log(`You are accessing ${c.req.url}`);
-	await next();
-});
+// /404 にきたリクエストのステータスコードを 404 で上書きする
+// ref. https://zenn.dev/mogamin/articles/override-status-cloudflare-pages-functions
+export const onRequestGet: PagesFunction = async (context) => {
+	const original = await context.env.ASSETS.fetch(context.request);
+	return new Response(original.body, { status: 404 });
+};
